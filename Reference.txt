@@ -1,0 +1,11 @@
+YouTube : 
+Ngx Loading Bar implement in Angular . | Angular Loading Bar
+https://www.youtube.com/watch?v=vKKPj86wUH0
+UX Trendz
+
+
+Github : 
+https://github.com/aitboudad/ngx-loading-bar
+
+npm install @ngx-loading-bar/core --save
+npm install @ngx-loading-bar/router --save

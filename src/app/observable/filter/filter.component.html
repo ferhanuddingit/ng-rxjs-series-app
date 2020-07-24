@@ -1,0 +1,60 @@
+<div class="my-3">
+  <h2>Filter</h2>
+  <br>
+  <div class="row">
+    <!-- Ex 01 -->
+    <div class="col-md-4">
+      <strong>Ex 01</strong>
+      <hr>
+      <p class="bg-light py-2 px-3 border rounder">
+        <strong>Filter :</strong> by length
+      </p>
+      <table class="table">
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+        </tr>
+        <tr *ngFor="let item of dataEx1">
+          <td>{{item.id}}</td>
+          <td>{{item.name}}</td>
+        </tr>
+      </table>
+    </div>
+    <!-- Ex 02 -->
+    <div class="col-md-4">
+      <strong>Ex 02</strong>
+      <hr>
+      <p class="bg-light py-2 px-3 border rounder">
+        <strong>Filter :</strong> by gender
+      </p>
+      <table class="table">
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+        </tr>
+        <tr *ngFor="let item of dataEx2">
+          <td>{{item.id}}</td>
+          <td>{{item.name}}</td>
+        </tr>
+      </table>
+    </div>
+    <!-- Ex 03 -->
+    <div class="col-md-4">
+      <strong>Ex 03</strong>
+      <hr>
+      <p class="bg-light py-2 px-3 border rounder">
+        <strong>Filter :</strong> by nth item
+      </p>
+      <table class="table">
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+        </tr>
+        <tr *ngFor="let item of dataEx3">
+          <td>{{item.id}}</td>
+          <td>{{item.name}}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+<div class="my-3">
+  <h2>Pluck</h2>
+  <br>
+  <div class="row">
+    <!-- Ex -01 -->
+    <div class="col-md-6">
+      <strong>Ex 01</strong>
+      <hr>
+      <p class="bg-light py-2 px-3 border rounder">
+        <strong>Pluck :</strong>
+      </p>
+      <ul id="elContainer1">
+        <li *ngFor="let item of dataEx1">{{item}}</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <strong>Ex 02</strong>
+      <hr>
+      <p class="bg-light py-2 px-3 border rounder">
+        <strong>Pluck :</strong> By Nested Propert
+      </p>
+      <ul id="elContainer2">
+        <li *ngFor="let item of dataEx2">{{item}}</li>
+      </ul>
+    </div>
+  </div>
+</div>
